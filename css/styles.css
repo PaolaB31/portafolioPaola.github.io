@@ -8126,6 +8126,25 @@ textarea.form-control-lg {
   --bs-text-opacity: 1;
 }
 
+.text-justify {
+  text-align: justify;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #575757;
+  font-size: 18px;
+}
+
+.text-left {
+  text-align: left;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #575757;
+  font-size: 18px;
+  line-height: 0.5;
+}
+
 .bg-primary {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
@@ -10859,12 +10878,23 @@ html {
 }
 .divider-custom .divider-custom-line {
   width: 100%;
-  max-width: 7rem;
+  max-width: 80%;
   height: 0.25rem;
-  background-color: #2c3e50;
+  background-color: #575757;
   border-radius: 1rem;
-  border-color: #2c3e50;
+  border-color: #575757;
 }
+
+.divider-custom .divider-custom-guionline {
+  width: 100%;
+  max-width: 100%;
+  height: 0.25rem;
+  background-color: transparent;
+  border-radius: 1rem;
+  border-color: transparent;
+  background-image: repeating-linear-gradient(to right, #575757, #575757 0.25rem, transparent 0.25rem, transparent 0.5rem);
+}
+
 .divider-custom .divider-custom-line:first-child {
   margin-right: 1rem;
 }
@@ -11039,6 +11069,22 @@ html {
     line-height: 2.5rem;
   }
 }
+
+.portfolio-modal .portfolio-modal-subtitle {
+  text-align: left;
+  font-size: 1rem;
+  line-height: 0.75rem;
+
+
+}
+@media (min-width: 992px) {
+  .portfolio-modal .portfolio-modal-subtitle {
+    text-align: left;
+    font-size: 1.75rem;
+    line-height: 1.5rem;
+  }
+}
+
 
 .footer {
   padding-top: 5rem;
