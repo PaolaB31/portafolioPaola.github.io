@@ -8133,16 +8133,28 @@ textarea.form-control-lg {
   margin-right: auto;
   color: #575757;
   font-size: 18px;
+  
 }
 
 .text-left {
   text-align: left;
-  width: 80%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   color: #575757;
   font-size: 18px;
-  line-height: 0.5;
+  line-height: 0.2;
+}
+
+.custom-bullet {
+  list-style-type: disc;
+  color: #575757;
+  font-size: 18px;
+  text-align: left;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1;
 }
 
 .bg-primary {
